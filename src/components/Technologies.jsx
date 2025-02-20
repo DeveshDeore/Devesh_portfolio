@@ -12,6 +12,7 @@ import next from "../assets/icons/next.svg";
 import redis from "../assets/icons/redis.png";
 import shadcn from "../assets/icons/shadcn.png";
 import image from "../assets/icons/image.png";
+import mysql from "../assets/icons/Mysql-pi.png";
 import css from "../assets/icons/css.png";
 import { motion } from "framer-motion";
 
@@ -48,6 +49,7 @@ const Technologies = () => {
           { src: html, duration: 4.2 },
           { src: tailwind, duration: 4.6 },
           { src: react, duration: 5 },
+          { src: mysql, duration: 5 },
          
          
         ].map((icon, index) => (
