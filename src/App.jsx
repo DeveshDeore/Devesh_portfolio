@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
+import Certificate from "./components/Certificate";
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Technologies />
           <Projects />
         <Experience/>
+        <Certificate/>
           <Contact/>
         </div>
       </div>
