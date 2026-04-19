@@ -1,4 +1,4 @@
-import profile from "../assets/profile.jpg";
+import profile from "../assets/Deveshh-profile.png";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -23,7 +23,7 @@ const About = () => {
           <div className="flex items-center justify-center">
             <img
               src={profile}
-              alt="Kush"
+              alt="Devesh"
               className="rounded-lg shadow-md"
               height={400}
               width={400}

@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/Deveshh-profile.png";
 import { motion } from "framer-motion";
 
 // Animation variants for motion components
@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
+          <div className="flex justify-center overflow-hidden">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
